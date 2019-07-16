@@ -13,7 +13,7 @@ git submodule update --init
 mkdir build && cd build
 cmake -DDISABLE_SNODE_SIGNATURE=OFF -DCMAKE_BUILD_TYPE=Release -DBOOST_ROOT=/usr/local/src/boost_1_66_0 ..
 cmake --build .
-./storage-server 0.0.0.0 18080
+./storage-server 0.0.0.0 18123
 ```
 
 The paths for Boost and OpenSSL can be specified by exporting the variables in the terminal before running `make`:
