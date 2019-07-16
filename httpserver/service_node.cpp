@@ -295,7 +295,7 @@ void ServiceNode::bootstrap_data() {
     params["fields"] = fields;
 
     std::vector<std::pair<std::string, uint16_t>> seed_nodes{
-        {{"45.77.117.59", 11045},
+        {{"163.172.135.150", 11045},
          {"212.47.251.15", 11045}}};
 
     auto req_counter = std::make_shared<int>(0);
