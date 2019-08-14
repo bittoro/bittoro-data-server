@@ -666,7 +666,7 @@ void ServiceNode::swarm_timer_tick() {
                              e.what());
                 }
             } else {
-                LOKI_LOG(critical, "Failed to contact local Lokid");
+                LOKI_LOG(critical, "Failed to contact local bittorod");
             }
         });
 
@@ -710,7 +710,7 @@ void ServiceNode::lokid_ping_timer_tick() {
             }
 
         } else {
-            LOKI_LOG(critical, "Could not ping Lokid");
+            LOKI_LOG(critical, "Could not ping bittorod");
         }
     };
 
