@@ -1,6 +1,8 @@
 # bittoro-data-server
 Data server for BitToro Master Nodes
 
+Notice : Data Server does not work with restricted-rpc daemon
+
 Requirements:
 * Boost >= 1.66 (for boost.beast)
 * OpenSSL >= 1.1.1a (for X25519 curves)
